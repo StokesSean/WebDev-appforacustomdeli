@@ -1,0 +1,31 @@
+{
+  "pictures": [
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "photos": [
+        {
+          "img": "http://res.cloudinary.com/stokes/image/upload/v1556305620/tcsudeggma3wifgxyuli.png",
+          "title": "Piano Sonata No. 10"
+        }
+      ]
+    },
+    {
+      "userid": "93d930a7-4fb0-44ee-9657-489717030eb4",
+      "photos": [
+        {
+          "img": "http://res.cloudinary.com/stokes/image/upload/v1556807126/ckwwagp6l0v29uo5trf7.png",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "userid": "c53a16c0-118a-40c1-9df6-100b3a5858c3",
+      "photos": [
+        {
+          "img": "http://res.cloudinary.com/stokes/image/upload/v1557311196/cdki02nx0ptub4iyvwex.jpg",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

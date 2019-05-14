@@ -1,8 +1,6 @@
-This is a web app made for my module in webapp development in Waterford Institute Of Techonology.
-#features
-1.)It allows user to be able to signup/login.
-2.)Users can make a list and add item's to that list.
-3.)Users can edit and delete lists and item's.
-4.)Comment section in the about page.
-5.)Users can upload images and delete them aswell.
-6.)Features some statistics about the entire site and aswell as stats for each user.
+Welcome to the Glitch Template 1
+==============================
+
+A starter project for learning Glitch.
+
+This is an Express.js project, designed to work well with the Glitch development environment. It includes basic express setup, templating, routing and session support.

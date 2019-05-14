@@ -1,0 +1,26 @@
+<form class="ui stacked segment form" action="about/addComment" method="POST">
+  <div class="one field">
+    <div class="field">
+      <label>Leave a comment for the creator of this app </label>
+
+      <input placeholder="Wow Sean , great effort on the site there, you should be given at least a decent 40%" type="text" name="comment" autofocus required>
+
+    
+  </div>
+  <button class="ui blue submit button">Add a comment</button>
+
+  </div>
+</form>
+
+<h1 class = "comment-section">
+   Comment section
+  </h1>
+{{#each comments}}
+<div class ="comments">  
+  <h2 class="ui header">
+      {{Comment}}  
+    </h2>
+    <p> -Written by {{firstname}} </p>
+
+  </div>
+{{/each}}

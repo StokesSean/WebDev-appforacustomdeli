@@ -1,0 +1,35 @@
+
+
+<table class="ui fixed table">
+  <thead>
+    <tr>
+      <th class="six wide">Food</th>
+      <th class="six wide">Price</th>
+      <th class="two wide"> </th>
+      <th class="two wide"> </th>
+    </tr>
+  </thead>
+<tbody>
+     {{#each deli.food}}
+    <form class = "ui form" action="/deli/{{../deli.id}}/updatefood/{{id}}" method="POST">
+    <tr class="fields">
+      <td class="field">
+        <span class="ui input">
+         <input placeholder="item" type="text" size = "30" name="item" autofocus required value = "{{item}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input placeholder="price" type="text" size = "30" name="price" required value = "{{price}}">
+        </span>
+      </td>
+      <td>
+        <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
+      </td>
+      <td>
+      <a href="/deli/{{../deli.id}}/deleteFood/{{id}}" class="ui tiny red button">Delete item</a></td>
+    </tr>
+    </form> 
+    {{/each}}
+  </tbody>
+</table>
