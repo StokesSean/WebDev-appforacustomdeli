@@ -1,0 +1,38 @@
+{{> menu id="dashboard"}}
+  <section class="ui raised segment">
+    <h3 class="ui header">
+      Your Pictures:
+    </h3>
+    {{#each album.photos}}
+   {{> card }}
+      <img src="{{img}}">
+    {{/each}}
+  </section>
+  <div class="ui segment">
+    <a href="/dashboard/deleteallpictures"> <button class="negative ui button">Delete All</button></a>
+  </div>
+{{>uploadpicture}}
+{{>adddeli}}
+<h1 class= "ui segment">
+  The total number of items you have in all the delis you have made is : {{totalitems}}
+</h1>
+
+
+{{#each deli}}
+ 
+
+  <section class="ui segment">
+<p>
+  The number of items in the deli is {{totalitemsindeli}}
+    </p>
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+    <p> Here you will find a list of our delicous {{title}} 's </p>
+    <a href="/deli/{{id}}" class = "ui icon button"><i class = "icon folder open"> </i> </a>
+    <a href ="/dashboard/deletedeli/{{id}}" class = "ui icon button"> 
+      <i class= "icon trash"> </i>
+</a>
+  
+  </section>
+{{/each}}

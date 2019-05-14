@@ -1,0 +1,13 @@
+<form class="ui stacked segment form" action="/deli/{{deli.id}}/addfoods" method="POST">
+  <div class="two fields">
+    <div class="field">
+      <label>Food item </label>
+      <input placeholder="Big lovely roll" type="text" name="item" autofocus required>
+    </div>
+    <div class="field">
+      <label>Price</label>
+      <input placeholder="100" type="text" name="price" required>
+    </div>
+  </div>
+  <button class="ui blue submit button">Add food item</button>
+</form>
